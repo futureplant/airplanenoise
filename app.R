@@ -9,7 +9,7 @@
 ##    We provide an extended explanation in the Readme file.                                                  #
 ###############################################################################################################
 
-# install libraries that are not yet installed
+# install libraries that are not yet installed.
 source("scripts/dependencies.R")
 require_install(pkgs)
 if (!require('leaflet.extras')) devtools::install_github('bhaskarvk/leaflet.extras')
